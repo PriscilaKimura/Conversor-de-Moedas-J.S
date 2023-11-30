@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Roboto Slab', sans-serif;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/fundoprojeto.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+
+  .logo {
+    width: 50%; /* Ocupar toda a largura do contêiner pai */
+    height: 15vh; /* Ocupar toda a altura da viewport, ajuste conforme necessário */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px auto;
+      
+  }
+
+main {
+    width: 375px; /* Altere o valor da largura conforme desejado */
+    background: #f4f4f4;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 25px;
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select, input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+button {
+    background: rgb(27, 32, 117);
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color:#FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+section {
+    border: 2px solid  #0f0b50;
+    border-radius: 20px;
+    margin-top:36px;
+    padding:12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.arrow-img {
+    width: 30px; /* Largura reduzida da imagem da seta */
+    height: auto; /* Mantém a proporção original da seta*/
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    gap: 4px;
+}
+
+.currency {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.currency-value, .currency-value-to-convert {
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+@media screen and (max-width: 400px) {
+    main {
+        max-width: 350px;
+    }  
+}
+
+
+
