@@ -16,5 +16,5 @@ Este é um simples conversor de moedas em JavaScript que permite converter valor
 
 https://github.com/PriscilaKimura/Conversor-de-Moedas-J.S/assets/141864300/2cb12e68-6243-45ef-b758-470413e50754
 
-link: https://priscilakimura.github.io/Conversor-de-Moedas-JS/
+link: https://priscilakimura.github.io/Conversor-de-Moedas-J.S/
 
